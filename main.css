@@ -116,17 +116,16 @@ p {
     background-position:center;
     background-repeat: no-repeat;
     justify-content: center;
+    flex-shrink: auto;
   
   }
   .flexbox-container1 {
     flex-shrink:auto;
-    margin: 0 auto;
-    height: auto;
-    width: min-content;
    
   }
   .image1{
     flex-shrink:auto;
+
     
   }
 
