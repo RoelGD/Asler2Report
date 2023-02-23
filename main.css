@@ -116,7 +116,9 @@ p {
     background-position:center;
     background-repeat: no-repeat;
     justify-content: center;
-    flex-shrink: auto;
+    width: min-content;
+    height: min-content;
+    
   
   }
   .flexbox-container1 {
@@ -125,7 +127,7 @@ p {
   }
   .image1{
     flex-shrink:auto;
-
+    width: min-content;
     
   }
 
