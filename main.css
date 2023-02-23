@@ -25,6 +25,7 @@ body {
   display: flex;
   position: absolute;
 
+
 }
 
 .flexbox-container2{
@@ -34,12 +35,6 @@ body {
   
 }
 
-.flexbox-container2{
-  display: flex;
-  position: fixed;
-  top: 20px; 
-  
-}
 
 
 .flexbox-item{
@@ -85,9 +80,11 @@ body {
   border: 1px solid blue;
   overflow: scroll;
   margin: 0% 20px;
-  padding: 0% 10px;
+  padding: 0% 20px;
   position: absolute;
   overflow: scroll;
+  
+  
   
   
 }
@@ -108,58 +105,57 @@ p {
 
 /*------ MEDIA QUERY-------------*/
 @media screen and (max-width: 768px) {
-	
- 
+
 
   .main-container{
     background-attachment:center;
     background-position:center;
     background-repeat: no-repeat;
     justify-content: center;
-    width: min-content;
-    height: min-content;
-    
+   
+ 
+   
+   
   
   }
   .flexbox-container1 {
     flex-shrink:auto;
-   
+     justify-content: space-evenly
   }
   .image1{
-    flex-shrink:auto;
+    
     width: min-content;
+    margin: 0 auto;
+    
     
   }
 
   .flexbox-container2 {
     flex-shrink:auto;
     margin: auto auto;
-    
+    justify-content: center;
+   
     
   }
   .flexbox-item{
     height: fit-content;
     width: fit-content;
-  
+    justify-content: center;
+
   }
   .flexbox-container3 .flexbox-container3-home{
 
     flex-shrink:auto;
-    margin: 2% 2%;
-    padding: 2% 2%;
-   
-  }
+    display: flex;
+    
+    
 
-  .flexbox-container3 .flexbox-container3-home{
-    justify-content: center;
-    flex-shrink:auto;
-    margin: 2% 2%;
-    padding: 2px 2px;
-    justify-content: center;
    
   }
   h1 p{
     flex-shrink: 1;
+    
+    
   } 
 
  
