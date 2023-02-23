@@ -1,0 +1,165 @@
+* {
+  box-sizing:border-box;
+}
+body {
+  font-size: 14px; 
+}
+.main-container{
+  display: flex;
+  justify-content: center;
+  top: 10px;
+
+  
+}
+.image1{
+  width: 1440px;
+  height: 900px;
+  border: 2px solid yellow;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: contain; 
+  
+  
+}
+.flex-container1{
+  display: flex;
+  position: absolute;
+
+}
+
+.flexbox-container2{
+  display: flex;
+  position: fixed;
+  top: 20px; 
+  
+}
+
+.flexbox-container2{
+  display: flex;
+  position: fixed;
+  top: 20px; 
+  
+}
+
+
+.flexbox-item{
+
+  width:150px;
+  height:50px;
+  color: white;
+  border: 2px solid yellow;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  background-color: blue;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.flexbox-item:hover{
+  background-color: red;
+}
+
+.flexbox-container3-home{
+  
+  top: 15%;
+  background-color: white;
+  height: fit-content;
+  width: fit-content;
+  background-color: aliceblue;
+  border: 1px solid blue;
+  margin: 0% 20px;
+  padding: 0% 10px;
+  position: absolute;
+  
+}
+
+
+.flexbox-container3{
+  
+  top: 15%;
+  background-color: white;
+  height: 95%;
+  width: 80%;
+  background-color: aliceblue;
+  border: 1px solid blue;
+  overflow: scroll;
+  margin: 0% 20px;
+  padding: 0% 10px;
+  position: absolute;
+  overflow: scroll;
+  
+  
+}
+h1 {
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+ 
+} 
+p {
+  
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+ 
+ }
+
+
+/*------ MEDIA QUERY-------------*/
+@media screen and (max-width: 768px) {
+	
+ 
+
+  .main-container{
+    background-attachment:center;
+    background-position:center;
+    background-repeat: no-repeat;
+    justify-content: center;
+  
+  }
+  .flexbox-container1 {
+    flex-shrink:auto;
+    margin: 0 auto;
+   
+  }
+  .image1{
+    height: fit-content;
+    
+  }
+
+  .flexbox-container2 {
+    flex-shrink:auto;
+    margin: top 2px;
+    
+    
+  }
+  .flexbox-item{
+    height: fit-content;
+    width: fit-content;
+  
+  }
+  .flexbox-container3 .flexbox-container3-home{
+
+    flex-shrink:auto;
+    margin: 2% 2%;
+    padding: 2% 2%;
+   
+  }
+
+  .flexbox-container3 .flexbox-container3-home{
+    justify-content: center;
+    flex-shrink:auto;
+    margin: 2% 2%;
+    padding: 2px 2px;
+    justify-content: center;
+   
+  }
+  h1 p{
+    flex-shrink: 1;
+  } 
+
+ 
+
+}
+
