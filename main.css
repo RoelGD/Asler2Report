@@ -121,6 +121,8 @@ p {
   .flexbox-container1 {
     flex-shrink:auto;
     margin: 0 auto;
+    height: auto;
+    width: min-content;
    
   }
   .image1{
