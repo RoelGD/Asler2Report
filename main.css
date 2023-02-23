@@ -106,7 +106,7 @@ p {
 
 
 /*------ MEDIA QUERY-------------*/
-@media screen and (max-width: 768px) and (min-width: 350px) {
+@media screen and (max-width: 768px) and (min-width:390px){
 
 
   .main-container{
@@ -122,8 +122,8 @@ p {
   
   }
   .flexbox-container1 {
-    width: min-content;
-
+    flex-shrink:auto;
+    
      
   }
   .image1{
