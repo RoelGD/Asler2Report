@@ -14,20 +14,17 @@ body {
 .image1{
   
   width: 1440px;
-  height: 900px;
+  height: 800px;
   border: 2px solid yellow;
   background-position: center;
   background-attachment: fixed;
   background-size: contain; 
   
-  
-  
 }
 .flex-container1{
   display: flex;
   position: absolute;
-
-
+  
 }
 
 .flexbox-container2{
@@ -36,8 +33,6 @@ body {
   top: 40px; 
   
 }
-
-
 
 .flexbox-item{
 
@@ -87,21 +82,18 @@ body {
   position: absolute;
   overflow: scroll;
   
-  
-  
-  
 }
 h1 {
   font-size: large;
   font-family: Arial, Helvetica, sans-serif;
-  color: red;
- 
+  font-size: 26px;
 } 
 p {
   
   font-size: large;
   font-family: Arial, Helvetica, sans-serif;
   color: red;
+  font-size: 26px;
  
  }
 
@@ -111,56 +103,52 @@ p {
 
 
   .main-container{
-    background-attachment:center;
-    background-position:center;
-    background-repeat: no-repeat;
-   
+  
     flex-shrink:auto;
     width: fit-content;
     height: fit-content;
     display: flex;
     margin: 2px 2px;
     padding: 2px auto;
-   
- 
-   
-   
+    justify-content: center;
   
   }
   .flexbox-container1 {
     display: flex;
     margin: 2px 2px;
     padding: 2px auto;
-
-
+    justify-content: center;
+    
   }
   .image1{
-    
-    width: fit-content;
-    margin: 2px 2px;
-    justify-content: center;
-  
 
-    
+    width: fit-content;
+    height: fit-content;
+    margin: 2px 2px;
     
   }
 
   .flexbox-container2 {
    
+    width: fit-content;
+    height: fit-content;
+    justify-content: center;
   }
   .flexbox-item{
-
+    justify-content: center;
+    flex-shrink: auto;
   }
   .flexbox-container3 .flexbox-container3-home{
-
-    flex-shrink:auto;
-    width: fit-content;
+    display: flex;
+    flex-shrink:1;
+    justify-content: center;
+    margin: 2px auto;
+    padding: auto; 
    
-    
   }
   h1 p{
     flex-shrink: auto;
-    
+    justify-content: center;
   } 
 
  
