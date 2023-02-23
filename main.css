@@ -79,7 +79,7 @@ body {
   
   top: 15%;
   background-color: white;
-  height: 95%;
+  height: 100%;
   width: 80%;
   background-color: aliceblue;
   border: 1px solid blue;
@@ -124,7 +124,7 @@ p {
    
   }
   .image1{
-    height: fit-content;
+    /*height: fit-content;*/
     
   }
 
