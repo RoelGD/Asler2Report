@@ -124,13 +124,13 @@ p {
    
   }
   .image1{
-    height: fit-content
+    flex: content;
     
   }
 
   .flexbox-container2 {
     flex-shrink:auto;
-    margin: top 2px;
+    margin: auto auto;
     
     
   }
