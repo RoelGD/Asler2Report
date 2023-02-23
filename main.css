@@ -114,7 +114,13 @@ p {
     background-attachment:center;
     background-position:center;
     background-repeat: no-repeat;
-    justify-content: center;
+   
+    flex-shrink:auto;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    margin: 2px 2px;
+    padding: 2px auto;
    
  
    
@@ -122,37 +128,35 @@ p {
   
   }
   .flexbox-container1 {
-    flex-shrink:auto;
-     justify-content: space-evenly
+    display: flex;
+    margin: 2px 2px;
+    padding: 2px auto;
+
+
   }
   .image1{
+    
+    width: fit-content;
+    margin: 2px 2px;
+    justify-content: center;
   
-    width: min-content;
-    margin: 0 auto;
+
     
     
   }
 
   .flexbox-container2 {
-    display: flex;
-    flex-shrink:auto;
-    margin: 2px 5px;
-    justify-content: center;
-    
+   
   }
   .flexbox-item{
-    height: fit-content;
-    width: fit-content;
-    justify-content: center;
+
   }
   .flexbox-container3 .flexbox-container3-home{
 
     flex-shrink:auto;
-    display: flex;
-    
-    
-
+    width: fit-content;
    
+    
   }
   h1 p{
     flex-shrink: auto;
