@@ -152,13 +152,16 @@ h1, p{
   .flexbox-container2 {
     display: flex;
     width: 90%;
-    justify-content: center;  
+    justify-content: center; 
+    margin: 7% 6%; 
+    
   }
   .flexbox-item{
    text-align: center;
    width: fit-content;
+   height: fit-content;
    font-size: smaller;
-    
+   
   }
   .flexbox-container3, .flexbox-container3-home, .flexbox-container3-video{
     display: flex;
