@@ -162,21 +162,41 @@ p {
    font-size: smaller;
     
   }
-  .flexbox-container3 .flexbox-container3-home{
+  .flexbox-container3, .flexbox-container3-home, .flexbox-container3-video{
     display: flex;
-    top: 20px;
+    top: 20%;
     justify-content: center;
+    flex-wrap: wrap;
+    height: 700px;
+   
    
   }
-  h1 p{
-   font-size: 16px; 
-   
-  } 
 
   .flexbox-container3-video{
-    width: 80%;
-    min-height: fit-content;
+    display: flex;  
+    height: 600px;
+
   }
+
+  h1, p{
+   font-size: small ;
+  } 
+
+  .page-title{
+   font-size: large;
+   position: static;
+ 
+  }
+
+
+  .video1{
+    top:2%;
+    width: 80%;
+    height: 20%;
+    position:absolute;
+    
+  }
+
 
 }
 
